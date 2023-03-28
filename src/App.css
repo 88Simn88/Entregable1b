@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.title {
+  color: #ffffff;
+  line-height: 3rem;
+  font-size: 40px;
+  text-align: center;
+  -webkit-text-stroke-color: #1824c5;
+  -webkit-text-stroke-width: 2px;
+  font-family: 'Coiny', cursive;
+}
+
+.btn{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 1rem;
+  border-color: #1824c5;
+  color: #2b2626;
+  cursor: pointer;
+}
+
+
+.phrase {
+  background-color: #ffffff;
+  margin-top: 2rem;
+  height: 200px;
+  width: 80%;
+  border-color: #1824c5;
+  border-style: solid;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.parag1 {
+  color: #555555;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.author {
+  background-color: #ffffff8e;
+  height: 50px;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 13rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  
+  display: flex;
+  align-items: center;
+}
+
+.parag2 {
+  font-size: 18px;
+  color: #666666;
+}
+
+@media (min-width: 700px) {
+  .phrase {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .parag1 {
+    line-height: 2rem;
+  }
+}
